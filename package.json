@@ -1,0 +1,24 @@
+{
+  "name": "jotify",
+  "version": "0.0.1",
+  "description": "Take things down",
+  "main": "./app/main/electron.js",
+  "scripts": {
+    "start:main": "electron ./app/main/electron.js",
+    "install:electron": "ELECTRON_MIRROR=https://cdn.npm.taobao.org/dist/electron/ npm install electron",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiefeic/jotify.git"
+  },
+  "author": "jiefeic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiefeic/jotify/issues"
+  },
+  "homepage": "https://github.com/jiefeic/jotify#readme",
+  "dependencies": {
+    "electron": "^16.0.6"
+  }
+}
